@@ -3,6 +3,7 @@ provider "aws" {
   region  = "ca-central-1"
 }
 
+# backend added
 terraform {
   backend "s3" {
     bucket = "si-remote-state-bucket"
